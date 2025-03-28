@@ -1,0 +1,16 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>letsstreamit/renovate-config"
+    ],
+    "packageRules": [
+        {
+            "description": "Trigger a patch update if any docker-compose gets updated",
+            "matchPaths": [
+                "docker-compose.yml",
+                "docker-compose.yaml"
+            ],
+            "semanticCommitScope": "core-deps"
+        }
+    ]
+}
