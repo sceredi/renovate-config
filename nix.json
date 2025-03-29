@@ -1,0 +1,9 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>sceredi/renovate-config"
+    ],
+    "nix": {
+        "enabled": true
+    }
+}
